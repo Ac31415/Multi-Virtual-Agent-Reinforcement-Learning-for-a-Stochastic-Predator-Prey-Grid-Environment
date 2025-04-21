@@ -17,7 +17,7 @@ If this code is used for any research purpose, please cite our IJCNN’22 paper 
   keywords={Learning systems;Q-learning;Monte Carlo methods;Heuristic algorithms;Computational modeling;Neural networks;Games;Reinforcement learning;multiple virtual agents;generalization problem;dynamic environment and parallel learning},
   doi={10.1109/IJCNN55064.2022.9891898}}
 ```
-## Case Study
+## Case Study (add this function to collab notebook)
 This is a predator-prey game with a size of 6×9. Areas 1, 2, and 3 are where a predator is likely to occur, with a possibility of P=[0.4,0.3,0.2,0.1]. S is the start space, and g is the goal space. The grey ones are wall spaces.
 
 ![9891898-fig-2-source-small](https://github.com/user-attachments/assets/ade13d04-b17e-429e-8413-4d750d09401f)
@@ -57,6 +57,12 @@ MVARL.ipynb
 You can change the value of epsilon by yourself to generate results with different epsilons or directly use the data we generated.
 
 ## **Plot**
+```
+python plot_fig-eps0.01--0.8-P4321.py
+python plot_fig-eps-STEP-boxplot.py
+```
+
+## **Follow up small prject (adding obstacles)**
 ```
 python plot_fig-eps0.01--0.8-P4321.py
 python plot_fig-eps-STEP-boxplot.py
